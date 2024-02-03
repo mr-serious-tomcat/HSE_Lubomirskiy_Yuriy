@@ -18,4 +18,4 @@ if seconds_input.isdigit():
     print(f"Часы: {result['hours']}")
     print(f"Дни: {result['days']}")
 else:
-    print("Ошибка: Введите целое число.")
+    print("Ошибка: Введите число.")
