@@ -7,6 +7,7 @@ cathetus2 = float(input("Введите длину катета: "))
 
 if cathetus1 <= 0 or cathetus2 <= 0:
     print("Введите положительные числа.")
+
 else:
     triangle_area = calculate_area_of_right_triangle(cathetus1, cathetus2)
     print("Площадь прямоугольного треугольника", cathetus1, "и", cathetus2, "равна", triangle_area)
