@@ -4,7 +4,6 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-
 number = int(input("Введите число: "))
 if number < 0:
     print("Факториал числа не определен")
