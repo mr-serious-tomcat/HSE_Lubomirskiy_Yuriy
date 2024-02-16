@@ -2,6 +2,7 @@ def generate_legal_text(defendant_data, case_number, courts_data):
     court_code = case_number.split('-')[0]
     court_address = courts_data[court_code]['address']
 
+
     legal_template = f"""
     В {courts_data[court_code]['court_name']}
     Адрес: {court_address}
