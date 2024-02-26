@@ -7,5 +7,4 @@ def find_max_of_three_numbers():
 
     print("Наибольшее число:", max_number)
 
-
 find_max_of_three_numbers()
