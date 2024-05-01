@@ -13,7 +13,7 @@ class LegalAPI:
         url = f"{self.BASE_URL}/{self.token}/efrsb/{endpoint}/{inn}"
         try:
             response = requests.get(url)
-            response.raise_for_status()  # исключение, если ответ не успешный
+            response.raise_for_status()
             return response.json()
         except requests.exceptions.RequestException as e:
             print(f"Ошибка при запросе к API: {e}")
