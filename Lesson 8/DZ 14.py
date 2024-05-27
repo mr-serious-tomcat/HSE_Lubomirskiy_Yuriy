@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 bot = telebot.TeleBot('7444361002:AAGbIc89BGwuOzHnDC2usxFxCPcLmWqXvhM')
-
+# @PythonZmeyAnacondsbot
 recipes = {
     'Пюре': {
         'ингредиенты': 'Картофель (1 кг), Молоко (100 мл), Масло сливочное (50 г), Соль, Перец',
